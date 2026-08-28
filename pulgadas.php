@@ -5,6 +5,7 @@
 <body>
     <h1>Convertir pulgadas a centimetros</h1>
 
+    // Formulario para ingresar las pulgadas a convertir
     <form method="post" action="conversion.php">
         Ingrese las pulgadas:
         <input type="text" name="pulgadas" id="pulgadas">

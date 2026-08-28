@@ -9,7 +9,9 @@
         $numero1 = $_POST['numero1'];
         $numero2 = $_POST['numero2'];   
         $operacion = $_POST['operacion'];
+        // Realizar la operación según la selección del usuario
 
+    // Validar que los números sean válidos
         if ($operacion == "suma") {
             $resultado = $numero1 + $numero2;
             echo "El resultado de la suma es: ".$resultado;
@@ -21,7 +23,8 @@
             echo "El resultado de la multiplicación es: ".$resultado;
         }    
          echo "<br><br>";
- 
+
+         // Redondear el resultado a 2 decimales
     $resultado_redondeado = round($resultado, 2);
     echo "El resultado redondeado a 2 decimales es: ".$resultado_redondeado;
 ?>

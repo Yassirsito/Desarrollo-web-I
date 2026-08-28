@@ -5,6 +5,7 @@
 <body>
     <h1>Calcular el area de una circunferencia</h1>
 
+    // Formulario para ingresar el radio de la circunferencia
     <form method="post" action="resultado_radio.php">
         Ingrese el radio de la circunferencia:
         <input type="text" name="radio" id="radio">
