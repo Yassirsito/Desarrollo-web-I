@@ -1,12 +1,19 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 30px 20px;
     line-height: 1.6;
+    background-color: #f4f6f8;
+    color: #2c3e50;
 }
 
 h1 {
-    font-size: 1.5em;
-    margin-bottom: 15px;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 8px;
+    display: inline-block;
 }
 
 p {
@@ -14,7 +21,12 @@ p {
 }
 
 form {
-    margin-top: 10px;
+    margin-top: 15px;
+    max-width: 420px;
+    background: #ffffff;
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 label,
@@ -26,17 +38,41 @@ select {
 
 input[type="text"],
 select {
-    padding: 4px;
-    margin: 4px 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    margin: 6px 0 14px 0;
+    border: 1px solid #ccd6dd;
+    border-radius: 6px;
+    transition: border-color 0.2s ease;
+}
+
+input[type="text"]:focus,
+select:focus {
+    outline: none;
+    border-color: #3498db;
 }
 
 input[type="submit"] {
-    padding: 6px 12px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
     margin-top: 8px;
+    border-radius: 6px;
     cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
 }
 
 pre {
-    background: #ff0000;
-    padding: 10px;
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 12px;
+    border-radius: 6px;
+    overflow-x: auto;
 }
