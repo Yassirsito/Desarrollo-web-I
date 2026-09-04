@@ -1,3 +1,9 @@
+<html>
+<head>
+    <title>Operaciones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 <?php
 
 $num1 = 4;
@@ -50,3 +56,5 @@ $valor_absoluto = abs($numero);
 echo "El valor absoluto de $numero es: $valor_absoluto";
 
 ?>
+</body>
+</html>
